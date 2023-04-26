@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="centerd">
+        <div>
+        <p>The origin price is <span>{{initial}}</span></p>
+        <p>The Tax Rate is :<span>{{tax}}</span></p>
+    </div>
+    <h1>The total price is <span class="for">{{total}}</span></h1>
+</div>
+
+</body>
+<style>
+    body{
+        background-color: aliceblue;
+    }
+    span{
+        color: green;
+        font-size: 1.5rem;
+    }
+    h1{
+        color: green;
+        font-weight: bolder;
+        font-style: oblique;
+        font-size: 5rem;
+    }
+    .for{
+        font-size: 5rem;
+    }
+    p{
+        color: black;
+    }
+
+    .centerd{
+        height: 150vh;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+</html>
